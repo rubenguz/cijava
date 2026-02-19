@@ -24,7 +24,7 @@ jobs:
      - name: Build with Maven
        run: mvn -B package --file pom.xml
 ```
-
+[![Build and test of Java Project](https://github.com/rubenguz/cijava/actions/workflows/main.yml/badge.svg)](https://github.com/rubenguz/cijava/actions/workflows/main.yml)
 ## Parte 2 - CD 
 ### Resolución de problemas con la suscripción de Estudiantes 
 
