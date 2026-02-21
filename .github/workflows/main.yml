@@ -33,7 +33,7 @@ jobs:
     if: github.ref == 'refs/heads/main'
     needs: build_test
     runs-on: ubuntu-latest
-    environment: stagging
+    environment: staging
 
     env:
       ARM_USE_OIDC: true
